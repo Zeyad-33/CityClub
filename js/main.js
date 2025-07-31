@@ -94,6 +94,6 @@ let detailsBtns = document.getElementsByClassName("details")
 
 for (let i=0 ; i<= detailsBtns.length ; i++){
     detailsBtns[i].addEventListener("click",function(){
-            window.location.href = "https://zeyad-33.github.io/CityClub/pages/club.html";
+            window.location.href = "/CityClub/pages/club.html";
     })
 }
