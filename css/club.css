@@ -1,0 +1,149 @@
+
+.clubSection{
+    padding: 50px 0;
+   background: #005C51;
+    background: linear-gradient(290deg,rgba(0, 92, 81, 1) 32%, rgba(0, 175, 136, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.club-container {
+    padding: 30px 0;
+    margin-top: 70px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.img-container {
+    width: 45%;
+    
+}
+.text {
+    
+    width: 45%;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    
+
+}
+.text .top{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.text .item {
+   
+    width: 250px;
+    height: 150px;
+}
+.text h2{
+    color:#00b087;
+   
+}
+.text .line{
+    width: 100px;
+    height: 5px;
+    background-color: rgba(208, 207, 207, 0.663);
+    margin-bottom: 10px;
+}
+.text .line2{
+     width: 220px;
+    height: 5px;
+    background-color: #ffffffa9;
+    margin-bottom: 10px;
+}
+.text .line3{
+    width: 100px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.663);
+    margin-bottom: 10px;
+}
+.text .line4{
+     width: 220px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.663);
+    margin-bottom: 10px;
+}
+.text2 {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px; 
+    margin-bottom: 10px; 
+}
+.container .ress{
+    color:rgb(17, 98, 3);
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.shops {
+    padding: 50px 0;
+}
+.container .shop {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container .shop img {
+    width: 200px;
+    height: 120px;
+}
+.final{
+    padding: 50px 0;
+}
+.final .container{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+
+   
+}
+.final .container .icons {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+}
+.final .container .pic {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.final .container .pic img {
+    transition: all 0.5s ease-in-out;
+
+}
+.final .container .pic img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.other{
+    color:rgb(17, 98, 3);
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.final .container .icons div {
+     background: #005C51;
+    background: linear-gradient(290deg,rgba(0, 92, 81, 1) 32%, rgba(0, 175, 136, 1) 100%);
+    width: 250px;
+    height: 50px;
+    padding: 40px 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    transition:all 0.5s ease-in-out;
+}
+.final .container .icons div:hover {
+    transform: scale(1.1);
+    transition:all 0.5s ease-in-out;
+    color: #ffff;
+}
+

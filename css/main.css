@@ -1,0 +1,437 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Signika:wght@300..700&family=Twinkle+Star&display=swap');
+
+
+body{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+header {
+    background-color: #ffff;
+    padding: 10px 0 ;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+header .logo{
+    
+    width: 200px;
+    height: 80px ;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black ;
+    padding: 5px 10px;
+    margin: 0 10px;
+    text-transform:capitalize;
+}
+nav ul li a:hover {
+    color: #038551;
+    border-bottom: 2px solid  #038551;
+}
+
+#active { 
+    color: #038551;
+    border-bottom: 2px solid  #038551;
+}
+
+header .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+main {
+    padding: 120px 0;
+}
+.clubs {
+    padding: 50px 0;
+}
+.clubs .image{
+    width: 550px;
+    height: 350px;
+
+}
+.clubs .container {
+    display:flex;
+    gap: 30px;
+
+}
+.clubs  .club-details { 
+    max-width: 600px;
+}
+.clubs  .club-details h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+
+}
+.clubs  .club-details p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.clubs  .club-details p span {
+    font-weight: 900;
+
+}
+.btns-container { 
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.mybtn{
+    font-size:  50px;
+    background-color: #05603c;
+    border: none;
+    color: aliceblue;
+    border-radius: 15px;
+    text-transform: capitalize;
+    width: 350px ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+.mybtn:hover {
+
+    
+    background-color: #038551;
+    transition: all 0.3s ease-in-out;
+}
+.clubs  .club-details  .btns-container .mybtn svg
+{
+    font-size: 40PX;
+    margin: 0 20px;
+}
+.clubbox{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+
+}
+.clubbox:hover{
+    background-color:#00b08799;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.clubbox img {
+    width: 150px;
+    height: 80px;
+}
+.clubs .club-container{
+    display: flex;
+    gap: 20px;
+    padding: 60px 0;
+    
+    text-transform: capitalize;
+    
+}
+.clubbox h6{
+    font-size: 25px;
+}
+.subscribe .subscribe-container {
+    display: flex  ;
+}
+.subscribe {
+    position: relative;
+}
+#mobile {
+    width: 200px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.subscribe .left {
+    padding: 30px 0;
+    background-color: #e3e3e3;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subscribe .subscribe-container .left .images {
+    display: flex ;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.subscribe .subscribe-container .images img {
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.subscribe .subscribe-container .images img:hover{
+
+    transform: scale(1.1);
+}
+.subscribe .right {
+        padding: 30px 0;
+    background-color: #00594f;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.subscribe .subscribe-container .right .subs{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+   
+    
+}
+.service .container .lables {
+    width: 400px;
+    text-align: center;
+    
+}
+.service .container .lables h2{
+    font-weight: bold;
+    font-size: 44px;
+    text-transform: capitalize;
+
+}
+.subscribe .subscribe-container .right .subs h5 {
+    font-size: 42px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.service {
+    background-color: #f5f5f5;
+}
+.service .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.service .service-container{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+
+}
+.service .service-container .serv {
+    background-color: #ffff;
+    width: 300px;
+    height: 80px;
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.service .service-container .serv  img{
+width: 60px;
+height: 60px;
+
+}
+.service .service-container .serv:hover{
+    background-color:black;
+    color: #ffff;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.9);
+}
+.cards{
+    padding: 50px 0;
+}
+
+ .cards .container .card-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 30px 0;
+}
+.cards .container .news h2{
+     font-weight: bold;
+     font-size: 44px;
+     text-align: center;
+}
+.cards .container .card-container .card .card-body .btn{
+background-color: #05603c;
+color: white;
+}
+.cards .container .card-container .card .card-body .btn:hover{
+    background-color:#00b08799;
+    transition: all 0.4s ease-in-out;
+    color: black;
+}
+.cards .container .card-container .card {
+    width: 400px !important;
+}
+.trainers .container .tcard-container {
+    display: flex;
+    gap: 30px;
+}
+.trainers .tcard-container .tcard { 
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trainers .tcard-container .tcard .image {
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(45deg, #e8f1ee, #c7e3dc);
+    border-top-left-radius: 250px;
+
+}
+.trainers .tcard-container .tcard .label {
+    width: 100%;
+    background-color:#00594f;
+    text-align: center;
+    color: #ffff;
+}
+.trainers .tcard-container .tcard .label h2 {
+    background-color:#00b087;
+    padding: 20px 0;
+    border-bottom-right-radius: 80px;
+}
+.trainers .tcard-container .tcard .label h3 {
+    background-color:#00594f;
+    padding: 10px 0;
+}
+.final .final-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.final .final-container img{
+    width: 300px;
+    height: 100px;
+
+}
+.final{
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 0;
+} 
+.up {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#00594f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    border: 1px solid white;
+
+}
+.up:hover{
+    background-color:#00b087;
+    transition: 0.3s ease-in-out;
+}
+.up img{
+    width: 30px;
+    height: 30px;
+}
+.contact {
+    padding: 50px 0;
+}
+.contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-transform: capitalize;
+}
+.contact .container h3{
+    font-weight: bold;
+     font-size: 44px;
+     text-align: center;
+
+}
+.contact .container form { 
+    width: 600px;
+    background-color: #f2f2f2;
+    padding: 60px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact .container form div {
+    display: flex;
+    flex-direction: column;
+}
+.contact .container form div input,
+.contact textarea {
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+}
+.contact .container .form .but{
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    background-color:rgb(159, 231, 207);
+    padding: 20px 10px;
+}
+.contact .container .form .but:hover{
+    transition: 0.2s ease-in-out;
+    background-color:#00b087;
+}
